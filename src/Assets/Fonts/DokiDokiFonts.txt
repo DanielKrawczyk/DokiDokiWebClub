@@ -1,0 +1,12 @@
+Aller- Generic Go-to font for when you don't know what else to use
+F25 Bank Printer-Font used for the console
+Halogen-Font used for some UI elements (settings, credits, poem minigame)
+Riffic Bold-Font used for some UI elements (menu buttons, headers)
+Hot Mustard BTN Regular-Font used for the "Doki Doki" in the game's logo
+dearJoe 5 casual-Font used for the "Literature Club" in the game's logo
+Verily Serif Mono-Edited style text such as this
+Journal-Monika's Handwriting
+Ammys Handwriting-Natsuki's Handwriting
+Hashtag-Sayori's Handwriting
+JP Hand Slanted-Yuri's Handwriting
+Damagrafik Script-Yuri's Handwriting

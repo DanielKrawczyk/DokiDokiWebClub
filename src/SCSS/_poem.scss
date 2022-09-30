@@ -1,0 +1,78 @@
+.poem {
+    height: 100vh;
+    width: 100vw;
+    background: #000;
+
+    &-background {
+        height: 100vh;
+        width: 100vw;
+        text-align: center;
+
+        img {
+            height: 100vh;
+            width: auto;
+        }
+    }
+
+    &-words {
+        position: absolute;
+        top: 0;
+        z-index: 4;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+
+        &_list {
+            width: 25vw;
+            height: 95vh;
+            margin: 2vh auto;
+
+            @include flex(row wrap, flex-start, center);
+
+            &_item {
+                width: 50%;
+
+                p {
+                    font-family: $font-poem;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+
+    &-stickers {
+        position: absolute;
+        z-index: 3;
+        bottom: -10%;
+        left: 6%;
+        height: 50vh;
+
+        @include flex(row nowrap, flex-start, center);
+
+        &_sticker {
+
+        }
+
+        img.jump {
+            animation: stickerJump 0.7s infinite cubic-bezier(.75, 1.25, 1, 1.90);
+        }
+    }
+}
+
+@keyframes stickerJump {
+    0% {
+        padding-bottom: 0;
+    }
+    25% {
+        padding-bottom: 50%;
+    }
+    50% {
+        padding-bottom: 10%;
+    }
+    75% {
+        padding-bottom: 50%;
+    }
+    100% {
+        padding-bottom: 0;
+    }
+}
